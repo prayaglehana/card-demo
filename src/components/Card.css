@@ -1,0 +1,22 @@
+.card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  flex-direction: column;
+  display: flex;
+}
+
+.card > input {
+  border: none;
+  flex: 1;
+  /* background-color: transparent; */
+  height: fit-content;
+  background-color: aquamarine;
+}
+
+.card > textarea {
+  border: none;
+  flex: 1;
+  background-color: transparent;
+  height: fit-content;
+}
